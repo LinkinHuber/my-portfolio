@@ -1,0 +1,202 @@
+/*make "about me" paragraph fill the whole page, get formatting for main done, make sure main is responsive, finalize formatting for whole page, create README, submit everything*/
+
+*{
+  box-sizing: border-box;
+  background-color: turquoise;
+  }
+
+.header {
+  margin: 10px 10px 0px 10px;
+  padding: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  border: 10px solid black;
+}
+
+.header h1 {
+  margin-bottom: 25px;
+  font-size: 4rem;
+  padding: 10px;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: turquoise;
+  border: 5px solid black;
+}
+
+.header nav {
+  width: 100%;
+  padding: 10px;
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  background-color: turquoise;
+  border: 5px solid black;
+}
+
+.header nav ul {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.header nav ul li {
+  display: block;
+  flex-basis: 25%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.header nav ul li a {
+  color: black;
+}
+
+.about-me {
+  margin: 10px 10px 0px 10px;
+  padding: 25px;
+  display: inline-block;
+  background-color: white;
+  border: 10px solid black;
+}
+
+.about-me h2 {
+  margin-bottom: 25px;
+  font-size: 3rem;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  background-color: turquoise;
+  border: 5px solid black;
+}
+
+.about-me img {
+  margin-right: 25px;
+  display: flex;
+  float: left;
+  max-width: 25%;
+  max-height: 25%;
+  border: 5px solid black;
+}
+
+.about-me p {
+  font-size: 1.5rem;
+  text-align: center;
+  display: flex;
+  background-color: turquoise;
+  border: 5px solid black;
+}
+
+.my-work {
+  margin: 10px;
+  padding: 25px;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  border: 10px solid black; 
+}
+
+.my-work nav {
+  border: 5px solid black; 
+}
+
+.fig-1 {
+  margin: 10px 10px 0px 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+}
+
+.fig-2 {
+  margin: 10px 0px 10px 10px;
+  display: flex;
+  flex-wrap: wrap;
+  float: left;
+}
+
+.fig-3 {
+  margin: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  float: right;
+  
+}
+
+.image-1 {
+  height: 584px;
+  width: 100%;
+  display: flex;
+  border: 5px solid black; 
+}
+
+.image-2 {
+  height: 300px;
+  width: 100%;
+  border: 5px solid black; 
+}
+
+.image-3 {
+  height: 300px;
+  width: 100%;
+  border: 5px solid black; 
+}
+
+.footer {
+  margin: 10px;
+  padding: 25px;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  border: 10px solid black;
+}
+
+.footer nav {
+  width: 100%;
+  padding: 10px;
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  background-color: turquoise;
+  border: 5px solid black;
+}
+
+.footer nav ul {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.footer nav ul li {
+  display: block;
+  flex-basis: 25%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.footer nav ul li a {
+  color: black;
+}
+
+@media screen and (max-width: 768px){
+  .footer nav ul li {
+    flex-basis: 50%;
+  }
+  .header nav ul li {
+    flex-basis: 50%;
+  }
+}
+
+@media screen and (max-width: 590px){
+  .footer nav ul li {
+    flex-basis: 100%;
+  }
+  .header nav ul li {
+    flex-basis: 100%;
+  }
+}
