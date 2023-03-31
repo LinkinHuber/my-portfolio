@@ -6,7 +6,7 @@
 
 ## link to the production "live" version of the code
 
-- 
+- https://linkinhuber.github.io/my-portfolio/
 
 ## screenshot of webpage
 
